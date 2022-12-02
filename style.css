@@ -47,6 +47,11 @@ h3, a {
     font-size: 4vw;
     text-shadow: .3vw .3vw 0vw black;
     margin: 0px;
+    padding: 0px;
+}
+
+a {
+    display: inline;
 }
 
 output {
