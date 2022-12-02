@@ -1,15 +1,10 @@
 @charset "UTF-8";
 
-element.style {
-    margin: 0px;
-}
-
 html {
     margin: 0px;
 }
 
 * {
-    display: block;
     margin: auto;
     font-size: 17vw;
     font-weight: bolder;
@@ -26,10 +21,7 @@ main {
 
 div {
     margin-top: 0px;
-}
 
-title{
-    display: none;
 }
 
 h1 {
@@ -55,10 +47,12 @@ a {
 }
 
 output {
+    display: block;
     text-shadow: 1vw 1vw 0vw black;
 }
 
 input{
+    display: block;
     width: 25vw;
     height: 25vw;
     background-color: rgba(0, 0, 0, 0.4);
