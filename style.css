@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    display: block;
+    margin: auto;
+    font-size: 17vw;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(0, 75, 0);
+    color: white;
+    margin-top: 5vw;
+}
+
+title{
+    display: none;
+}
+
+h1 {
+    text-shadow: 2vw 2vw 0vw black;
+}
+
+h2 {
+    font-size: 15vw;
+    font-style: italic;
+    text-shadow: 2vw 2vw 0vw black;
+}
+
+output {
+    text-shadow: 2vw 2vw 0vw black;
+}
+
+input{
+    width: 25vw;
+    height: 25vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 2vw 2vw 0vw black;
+}
+
+input#reset {
+    width: 65vw;
+    height: 25vw;
+    margin-bottom: 5vw;
+}
+
+input:hover{
+    box-shadow: 0px 0px 0px black;
+}
